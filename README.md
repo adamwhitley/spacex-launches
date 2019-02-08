@@ -5,7 +5,7 @@
 We built this out and it works OK, but it has a few issues and could use some love. That's where you come in! In no particular order...
 
  - ✨ There's another GraphQL API with comments on each launch. It would be great to add a button that fetches and displays these comments, [something like this](https://i.imgur.com/rBkl87E.png). [See below](https://github.com/thoughtindustries/spacex-launches#comments-api) for more info on the comments API.
- - 🐛 The launches aren't in order! For example, #7 (2010-12-08) appears after #6 (2010-06-04), where did we go wrong?
+ - 🐛 The launches aren't in chronological order! For example, [#57 (2018-03-06) appears before  #54 (2018-01-31)](https://i.imgur.com/UaLsFdy.png), which is not chronological. Where did we go wrong?
  - 💄 It'd be nice if it looked [more like this](https://i.imgur.com/VB2c48X.png), with alternating left/right timeline items, and maybe some color variation in the background of the rocket/bomb icon. To see the live version of that screenshot, [navigate here](https://themes.getbootstrap.com/preview/?theme_id=1696&show_new=) and click Pages > Timeline v2. All of the classes in this framework can be used.
  - 🐛 If you open up the developer console, you'll see the error `"Warning: Each child in a list should have a unique "key" prop."` but [we're specifying a key](https://github.com/thoughtindustries/spacex-launches/blob/3402ee684b71d129f74bbd8fb2e2bf41ea991cd4/src/App.js#L80)! What gives?
  - ✨ The SpaceX GraphQL API, [which you can play with here](https://api.spacex.land/graphql/), has a "video_link" (under "links") which could be used to embed a video of the launch. That would be awesome!
