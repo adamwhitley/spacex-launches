@@ -1,3 +1,41 @@
 .timeline-header {
   padding-left: 0;
 }
+
+/* Video Holder */
+.vidHolder {
+  margin: 1em 0;
+  position: relative;
+}
+
+.vidHolder img {
+  width: 100%;
+}
+
+.vidHolder b {
+  position: absolute;
+  cursor: pointer;
+  font-size: 20rem;
+  color: white;
+  font-weight: normal;
+  display: block;
+  border: 5px solid white;
+  border-radius: 130px;
+  padding: 65px 50px 120px;
+  top: 25%;
+  left: 32%;
+  opacity: 0.5;
+  transition: all 1s ease-in-out;
+}
+
+.vidHolder:hover b {opacity: 0.9;}
+
+/* Comments Section */
+.commentsBtn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #4285f4;
+}
+
+.commentsBtn:hover {color: #0d5bdd;}
